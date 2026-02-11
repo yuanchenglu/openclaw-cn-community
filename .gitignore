@@ -1,5 +1,7 @@
 node_modules/
 .DS_Store
+AGENTS.md
 dist/
 docs/.vitepress/dist/
 docs/.vitepress/cache/
+ 

@@ -47,6 +47,12 @@ openclaw-cn channels add --channel telegram --token "您的Token"
 在 Telegram 中搜索并打开官方机器人 **@BotFather**。
 
 ![BotFather 搜索](/assets/telegram-search-botfather.P99eSlUB.png)
+![BotFather Start](/assets/telegram-botfather-start.Je0kHk_V.png)
+![BotFather 创建机器人](/assets/telegram-botfather-newbot.BqvaHgb7.png)
+![BotFather Token](/assets/telegram-botfather-token.1mT8Fk2k.png)
+<!-- ![BotFather Start](/assets/telegram-botfather-start.Je0kHk_V.png) -->
+<!-- ![BotFather 创建机器人](/assets/telegram-botfather-newbot.BqvaHgb7.png) -->
+<!-- ![BotFather Token](/assets/telegram-botfather-token.1mT8Fk2k.png) -->
 
 ### 2. 启动 BotFather
 

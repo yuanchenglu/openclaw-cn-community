@@ -32,11 +32,11 @@
 ## 2. 通用文档驱动协议 (UDDP)
 
 ### 法则一：Conversation Zero
-对话历史只是噪音。只有写入 `docs/` 文件的内容才是唯一真理。
+对话历史只是噪音。只有写入 `project_docs/` 文件的内容才是唯一真理。
 
 ### 法则二：标准目录结构与归档 (Standard Structure & Locality)
-就近归档 (Contextual Locality)：文档应跟随代码模块分布 (`root/docs/` vs `modules/xyz/docs/`)。
-任何 `docs/` 根目录必须遵循以下最佳工程实践标准：
+就近归档 (Contextual Locality)：文档应跟随代码模块分布 (`root/project_docs/` vs `modules/xyz/project_docs/`)。
+任何 `project_docs/` 根目录必须遵循以下最佳工程实践标准：
 
 #### 00_Inputs/ (原始输入)
 - **命名规范**: `YYYYMMDD_{Type}_{Desc}.md` (例: `20260208_Chat_需求讨论.md`)
@@ -81,7 +81,7 @@
 - **目的**: 确认文件真实存在，严禁基于“记忆”或“猜测”虚构文件路径。
 
 ### 法则四：变更容器 (The Change Container)
-所有变更必须包裹在 `{Target_Docs}/30_Changelogs/{Type}-{YYYYMMDD}-{XXX}/` 中。
+所有变更必须包裹在 `{Target_project_docs}/30_Changelogs/{Type}-{YYYYMMDD}-{XXX}/` 中。
 - **CID**: `{Type}-{YYYYMMDD}-{XXX}` (自增序列)。
 - **Topic**: 变更主题，必须使用简体中文概述本次变更内容。
 
@@ -105,19 +105,19 @@ AI 必须手动创建以下三个文件：
 测试报告严禁孤立存在，必须维护以下金字塔结构：
 
 #### Level 1: 原子测试 (Atomic Test)
-- **位置**: `docs/30_Changelogs/{CID}/test_report.md`
+- **位置**: `project_docs/30_Changelogs/{CID}/test_report.md`
 - **职责**: 仅验证本次 Commit 的变更点。
 
 #### Level 2: 模块测试 (Module Test)
-- **位置**: `modules/{tool_name}/docs/QA_TEST_REPORT.md`
+- **位置**: `modules/{tool_name}/project_docs/QA_TEST_REPORT.md`
 - **职责**: 该模块/工具的累计测试记录。
 
 #### Level 3: 项目总测 (Project Master Test)
-- **位置**: 项目根目录 `docs/QA_TEST_REPORT.md`
+- **位置**: 项目根目录 `project_docs/QA_TEST_REPORT.md`
 - **职责**: 全链路回归测试、集成测试。
 - **[修改] 版本全量与滚动归档 (Version-Monolithic)**:
     - **当前版本**: 该文件必须包含当前版本 (e.g., v1.2) 的全量测试记录，严禁拆分。
-    - **滚动归档**: 当项目版本号发生变更时 (e.g., v1.2 -> v1.3)，必须先将旧内容的副本归档至 `docs/archive/QA_legacy_v1.2.md`，然后重置主文件，仅保留最新的回归测试结论。
+    - **滚动归档**: 当项目版本号发生变更时 (e.g., v1.2 -> v1.3)，必须先将旧内容的副本归档至 `project_docs/archive/QA_legacy_v1.2.md`，然后重置主文件，仅保留最新的回归测试结论。
 - **操作**: 每次原子测试完成后，必须将关键结论汇总追加到此文件中。
 
 ### 3.2 全栈 Mock 仿真协议 (Full-Stack Mock)
@@ -218,4 +218,4 @@ AI 在行动前请自检：
 - [ ] **(Level 3) 如果版本号变更，我是否执行了归档操作？**
 
 ---
-**Signed by**: Chief Architect (Xiao Lu)
+**签署人**: 首席架构师 (小路)

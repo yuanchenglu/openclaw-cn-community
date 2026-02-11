@@ -36,7 +36,7 @@ export default defineConfig({
       { text: '硬核手册 (Core)', link: '/core/' },
       { text: '场景教程 (Cookbook)', link: '/cookbook/' },
       { text: '工具下载', link: '/tools/' }, // Phase 2 预留
-      { text: '社区讨论', link: 'https://github.com/your-org/openclaw-cn/discussions' } // Phase 3 预留 (Giscus)
+      { text: '社区讨论', link: 'https://github.com/yuanchenglu/openclaw-cn-community/discussions' } // Phase 3 预留 (Giscus)
     ],
 
     // 侧边栏 (双模架构)
@@ -152,7 +152,7 @@ export default defineConfig({
 
     // 页脚配置
     footer: {
-      message: '基于 MIT 许可发布',
+      message: '基于 CC-BY-NC-SA 4.0 许可发布',
       copyright: 'Copyright © 2026 OpenClaw CN Community'
     },
 

@@ -1,6 +1,7 @@
 node_modules/
 .DS_Store
 AGENTS.md
+.antigravity_rules.md
 dist/
 docs/.vitepress/dist/
 docs/.vitepress/cache/

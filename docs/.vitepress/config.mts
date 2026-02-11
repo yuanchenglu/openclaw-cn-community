@@ -69,7 +69,7 @@ export default defineConfig({
       { text: '硬核手册 (Core)', link: '/core/' },
       { text: '场景教程 (Cookbook)', link: '/cookbook/' },
       { text: '工具下载', link: '/tools/' }, // Phase 2 预留
-      { text: '社区讨论', link: 'https://github.com/yuanchenglu/openclaw-cn-community/discussions' } // Phase 3 预留 (Giscus)
+      { text: '社区讨论', link: 'https://github.com/yuanchenglu/openclaw-cn-community/issues' } // Phase 3 预留 (Giscus)
     ],
 
     // 侧边栏 (双模架构)

@@ -23,10 +23,10 @@ npm run docs:build
 npm run docs:preview
 ```
 
-## 部署指南
+<!-- ## 部署指南
 
 本项目配置了 GitHub Actions 自动部署至阿里云 ECS。
-详细配置步骤请参考：[部署指南 (Deployment Guide)](docs/20_Specs/21_Deployment_Guide.md)
+详细配置步骤请参考：[部署指南 (Deployment Guide)](project_docs/20_Specs/21_Deployment_Guide.md) -->
 
 ## 目录结构
 - `docs/core/`: 官方硬核技术文档 (同步自上游)

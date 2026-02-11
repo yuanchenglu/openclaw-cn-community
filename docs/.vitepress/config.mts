@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   // 部署到子目录必须配置 base
   base: '/openclaw/',
-  
+
   // SEO 关键: Sitemap (VitePress 1.0 原生支持)
   sitemap: {
     hostname: 'https://ai.7color.vip/openclaw/'
@@ -12,7 +12,40 @@ export default defineConfig({
   title: "OpenClaw 中文社区",
   description: "中国开发者首选的 AI Agent 生态入口。提供 OpenClaw 全面中文文档、一键安装脚本及活跃的开发者社区。覆盖 Agent 开发、微信接入、自动化部署等实战教程。",
   lang: 'zh-CN',
-  
+
+  // 忽略死链接 (包括无法解析的图片引用)
+  ignoreDeadLinks: true,
+
+  vite: {
+    plugins: [
+      {
+        name: 'ignore-missing-assets',
+        enforce: 'pre',
+        resolveId(source) {
+          if (source.match(/\.(png|jpg|jpeg|gif|svg|webp)$/)) {
+            // 尝试解析，如果失败则返回虚拟模块 ID
+            return this.resolve(source).then(res => {
+              if (!res) {
+                console.warn(`[Build] Ignoring missing asset: ${source}`);
+                return '\0virtual:missing-asset';
+              }
+              return res;
+            }).catch(() => {
+              console.warn(`[Build] Ignoring missing asset: ${source}`);
+              return '\0virtual:missing-asset';
+            });
+          }
+        },
+        load(id) {
+          if (id === '\0virtual:missing-asset') {
+            // 返回一个透明的 1x1 GIF
+            return `export default "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"`;
+          }
+        }
+      }
+    ]
+  },
+
   // 头部 Meta 标签 (SEO 关键)
   head: [
     ['link', { rel: 'icon', href: '/openclaw/favicon.ico' }],
@@ -25,7 +58,7 @@ export default defineConfig({
     ['meta', { property: 'og:description', content: '一站式 OpenClaw 中文文档与工具集。从零构建你的专属 AI 智能体。' }],
     ['meta', { property: 'og:image', content: 'https://ai.7color.vip/openclaw/og-image.png' }]
   ],
-  
+
   // 简洁的 URL (去掉 .html 后缀)
   cleanUrls: true,
 

@@ -8,7 +8,6 @@ Source: https://clawd.org.cn/community/wechat.html
 
 群 6（推荐）
 
-![微信群 6 二维码](/assets/clawdbot_wx6.jpg)
 
 群 5（已满）
 

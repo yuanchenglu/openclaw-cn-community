@@ -1,0 +1,374 @@
+[
+  {
+    "title": "入门指南",
+    "url": "https://clawd.org.cn/start/getting-started.html",
+    "save_path": "clawd_docs/start/getting-started.md",
+    "status": "completed"
+  },
+  {
+    "title": "安装向导",
+    "url": "https://clawd.org.cn/start/wizard.html",
+    "save_path": "clawd_docs/start/wizard.md",
+    "status": "completed"
+  },
+  {
+    "title": "设置",
+    "url": "https://clawd.org.cn/start/setup.html",
+    "save_path": "clawd_docs/start/setup.md",
+    "status": "completed"
+  },
+  {
+    "title": "配对",
+    "url": "https://clawd.org.cn/start/pairing.html",
+    "save_path": "clawd_docs/start/pairing.md",
+    "status": "completed"
+  },
+  {
+    "title": "Clawd 助手",
+    "url": "https://clawd.org.cn/start/clawd.html",
+    "save_path": "clawd_docs/start/clawd.md",
+    "status": "completed"
+  },
+  {
+    "title": "WhatsApp",
+    "url": "https://clawd.org.cn/channels/whatsapp.html",
+    "save_path": "clawd_docs/channels/whatsapp.md",
+    "status": "completed"
+  },
+  {
+    "title": "Telegram",
+    "url": "https://clawd.org.cn/channels/telegram.html",
+    "save_path": "clawd_docs/channels/telegram.md",
+    "status": "completed"
+  },
+  {
+    "title": "Discord",
+    "url": "https://clawd.org.cn/channels/discord.html",
+    "save_path": "clawd_docs/channels/discord.md",
+    "status": "completed"
+  },
+  {
+    "title": "Slack",
+    "url": "https://clawd.org.cn/channels/slack.html",
+    "save_path": "clawd_docs/channels/slack.md",
+    "status": "completed"
+  },
+  {
+    "title": "飞书",
+    "url": "https://clawd.org.cn/channels/feishu.html",
+    "save_path": "clawd_docs/channels/feishu.md",
+    "status": "completed"
+  },
+  {
+    "title": "iMessage",
+    "url": "https://clawd.org.cn/channels/imessage.html",
+    "save_path": "clawd_docs/channels/imessage.md",
+    "status": "completed"
+  },
+  {
+    "title": "Signal",
+    "url": "https://clawd.org.cn/channels/signal.html",
+    "save_path": "clawd_docs/channels/signal.md",
+    "status": "completed"
+  },
+  {
+    "title": "Mattermost",
+    "url": "https://clawd.org.cn/channels/mattermost.html",
+    "save_path": "clawd_docs/channels/mattermost.md",
+    "status": "completed"
+  },
+  {
+    "title": "网关服务操作手册",
+    "url": "https://clawd.org.cn/gateway/",
+    "save_path": "clawd_docs/gateway.md",
+    "status": "completed"
+  },
+  {
+    "title": "配置示例",
+    "url": "https://clawd.org.cn/gateway/configuration-examples.html",
+    "save_path": "clawd_docs/gateway/configuration-examples.md",
+    "status": "completed"
+  },
+  {
+    "title": "安全",
+    "url": "https://clawd.org.cn/gateway/security.html",
+    "save_path": "clawd_docs/gateway/security.md",
+    "status": "completed"
+  },
+  {
+    "title": "SSL 证书部署",
+    "url": "https://clawd.org.cn/guides/ssl-deployment.html",
+    "save_path": "clawd_docs/guides/ssl-deployment.md",
+    "status": "completed"
+  },
+  {
+    "title": "故障排除",
+    "url": "https://clawd.org.cn/gateway/troubleshooting.html",
+    "save_path": "clawd_docs/gateway/troubleshooting.md",
+    "status": "completed"
+  },
+  {
+    "title": "Web UI 配对问题",
+    "url": "https://clawd.org.cn/gateway/pairing-required-troubleshooting.html",
+    "save_path": "clawd_docs/gateway/pairing-required-troubleshooting.md",
+    "status": "completed"
+  },
+  {
+    "title": "令牌不匹配问题",
+    "url": "https://clawd.org.cn/gateway/token-mismatch-troubleshooting.html",
+    "save_path": "clawd_docs/gateway/token-mismatch-troubleshooting.md",
+    "status": "completed"
+  },
+  {
+    "title": "远程访问",
+    "url": "https://clawd.org.cn/gateway/remote.html",
+    "save_path": "clawd_docs/gateway/remote.md",
+    "status": "completed"
+  },
+  {
+    "title": "Tailscale",
+    "url": "https://clawd.org.cn/gateway/tailscale.html",
+    "save_path": "clawd_docs/gateway/tailscale.md",
+    "status": "completed"
+  },
+  {
+    "title": "工具概述",
+    "url": "https://clawd.org.cn/tools/",
+    "save_path": "clawd_docs/tools.md",
+    "status": "completed"
+  },
+  {
+    "title": "浏览器控制",
+    "url": "https://clawd.org.cn/tools/browser.html",
+    "save_path": "clawd_docs/tools/browser.md",
+    "status": "completed"
+  },
+  {
+    "title": "斜杠命令",
+    "url": "https://clawd.org.cn/tools/slash-commands.html",
+    "save_path": "clawd_docs/tools/slash-commands.md",
+    "status": "completed"
+  },
+  {
+    "title": "技能",
+    "url": "https://clawd.org.cn/tools/skills.html",
+    "save_path": "clawd_docs/tools/skills.md",
+    "status": "completed"
+  },
+  {
+    "title": "技能配置",
+    "url": "https://clawd.org.cn/tools/skills-config.html",
+    "save_path": "clawd_docs/tools/skills-config.md",
+    "status": "completed"
+  },
+  {
+    "title": "ClawdHub",
+    "url": "https://clawd.org.cn/tools/clawdhub.html",
+    "save_path": "clawd_docs/tools/clawdhub.md",
+    "status": "completed"
+  },
+  {
+    "title": "自定义 AI 供应商",
+    "url": "https://clawd.org.cn/guides/custom-ai-providers.html",
+    "save_path": "clawd_docs/guides/custom-ai-providers.md",
+    "status": "completed"
+  },
+  {
+    "title": "OpenAI",
+    "url": "https://clawd.org.cn/providers/openai.html",
+    "save_path": "clawd_docs/providers/openai.md",
+    "status": "completed"
+  },
+  {
+    "title": "Anthropic",
+    "url": "https://clawd.org.cn/providers/anthropic.html",
+    "save_path": "clawd_docs/providers/anthropic.md",
+    "status": "completed"
+  },
+  {
+    "title": "MiniMax",
+    "url": "https://clawd.org.cn/providers/minimax.html",
+    "save_path": "clawd_docs/providers/minimax.md",
+    "status": "completed"
+  },
+  {
+    "title": "Moonshot",
+    "url": "https://clawd.org.cn/providers/moonshot.html",
+    "save_path": "clawd_docs/providers/moonshot.md",
+    "status": "completed"
+  },
+  {
+    "title": "OpenRouter",
+    "url": "https://clawd.org.cn/providers/openrouter.html",
+    "save_path": "clawd_docs/providers/openrouter.md",
+    "status": "completed"
+  },
+  {
+    "title": "macOS",
+    "url": "https://clawd.org.cn/platforms/macos.html",
+    "save_path": "clawd_docs/platforms/macos.md",
+    "status": "completed"
+  },
+  {
+    "title": "iOS",
+    "url": "https://clawd.org.cn/platforms/ios.html",
+    "save_path": "clawd_docs/platforms/ios.md",
+    "status": "completed"
+  },
+  {
+    "title": "Android",
+    "url": "https://clawd.org.cn/platforms/android.html",
+    "save_path": "clawd_docs/platforms/android.md",
+    "status": "completed"
+  },
+  {
+    "title": "Windows",
+    "url": "https://clawd.org.cn/platforms/windows.html",
+    "save_path": "clawd_docs/platforms/windows.md",
+    "status": "completed"
+  },
+  {
+    "title": "Linux",
+    "url": "https://clawd.org.cn/platforms/linux.html",
+    "save_path": "clawd_docs/platforms/linux.md",
+    "status": "completed"
+  },
+  {
+    "title": "钩子",
+    "url": "https://clawd.org.cn/hooks.html",
+    "save_path": "clawd_docs/hooks.md",
+    "status": "completed"
+  },
+  {
+    "title": "定时任务",
+    "url": "https://clawd.org.cn/automation/cron-jobs.html",
+    "save_path": "clawd_docs/automation/cron-jobs.md",
+    "status": "completed"
+  },
+  {
+    "title": "Webhook",
+    "url": "https://clawd.org.cn/automation/webhook.html",
+    "save_path": "clawd_docs/automation/webhook.md",
+    "status": "completed"
+  },
+  {
+    "title": "Gmail 集成",
+    "url": "https://clawd.org.cn/automation/gmail-pubsub.html",
+    "save_path": "clawd_docs/automation/gmail-pubsub.md",
+    "status": "completed"
+  },
+  {
+    "title": "架构",
+    "url": "https://clawd.org.cn/concepts/architecture.html",
+    "save_path": "clawd_docs/concepts/architecture.md",
+    "status": "completed"
+  },
+  {
+    "title": "智能体",
+    "url": "https://clawd.org.cn/concepts/agent.html",
+    "save_path": "clawd_docs/concepts/agent.md",
+    "status": "completed"
+  },
+  {
+    "title": "会话",
+    "url": "https://clawd.org.cn/concepts/session.html",
+    "save_path": "clawd_docs/concepts/session.md",
+    "status": "completed"
+  },
+  {
+    "title": "多智能体",
+    "url": "https://clawd.org.cn/concepts/multi-agent.html",
+    "save_path": "clawd_docs/concepts/multi-agent.md",
+    "status": "completed"
+  },
+  {
+    "title": "记忆",
+    "url": "https://clawd.org.cn/concepts/memory.html",
+    "save_path": "clawd_docs/concepts/memory.md",
+    "status": "completed"
+  },
+  {
+    "title": "模型",
+    "url": "https://clawd.org.cn/concepts/models.html",
+    "save_path": "clawd_docs/concepts/models.md",
+    "status": "completed"
+  },
+  {
+    "title": "安装概述",
+    "url": "https://clawd.org.cn/install/",
+    "save_path": "clawd_docs/install.md",
+    "status": "completed"
+  },
+  {
+    "title": "安装脚本",
+    "url": "https://clawd.org.cn/install/installer.html",
+    "save_path": "clawd_docs/install/installer.md",
+    "status": "completed"
+  },
+  {
+    "title": "更新",
+    "url": "https://clawd.org.cn/install/updating.html",
+    "save_path": "clawd_docs/install/updating.md",
+    "status": "completed"
+  },
+  {
+    "title": "Docker 快速部署",
+    "url": "https://clawd.org.cn/install/docker-quick.html",
+    "save_path": "clawd_docs/install/docker-quick.md",
+    "status": "completed"
+  },
+  {
+    "title": "Docker 完整部署",
+    "url": "https://clawd.org.cn/install/docker.html",
+    "save_path": "clawd_docs/install/docker.md",
+    "status": "completed"
+  },
+  {
+    "title": "Nix",
+    "url": "https://clawd.org.cn/install/nix.html",
+    "save_path": "clawd_docs/install/nix.md",
+    "status": "completed"
+  },
+  {
+    "title": "Node.js",
+    "url": "https://clawd.org.cn/install/node.html",
+    "save_path": "clawd_docs/install/node.md",
+    "status": "completed"
+  },
+  {
+    "title": "Bun",
+    "url": "https://clawd.org.cn/install/bun.html",
+    "save_path": "clawd_docs/install/bun.md",
+    "status": "completed"
+  },
+  {
+    "title": "开发渠道",
+    "url": "https://clawd.org.cn/install/development-channels.html",
+    "save_path": "clawd_docs/install/development-channels.md",
+    "status": "completed"
+  },
+  {
+    "title": "Ansible",
+    "url": "https://clawd.org.cn/install/ansible.html",
+    "save_path": "clawd_docs/install/ansible.md",
+    "status": "completed"
+  },
+  {
+    "title": "卸载",
+    "url": "https://clawd.org.cn/install/uninstall.html",
+    "save_path": "clawd_docs/install/uninstall.md",
+    "status": "completed"
+  },
+  {
+    "title": "测试",
+    "url": "https://clawd.org.cn/testing.html",
+    "save_path": "clawd_docs/testing.md",
+    "status": "completed"
+  },
+  {
+    "title": "微信群",
+    "url": "https://clawd.org.cn/community/wechat.html",
+    "save_path": "clawd_docs/community/wechat.md",
+    "status": "completed"
+  }
+]

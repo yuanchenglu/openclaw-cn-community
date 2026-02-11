@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ai.7color.vip/openclaw/sitemap.xml

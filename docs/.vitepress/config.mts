@@ -65,11 +65,9 @@ export default defineConfig({
   themeConfig: {
     // 顶部导航栏
     nav: [
-      { text: '首页', link: '/' },
-      { text: '硬核手册 (Core)', link: '/core/' },
-      { text: '场景教程 (Cookbook)', link: '/cookbook/' },
-      { text: '工具下载', link: '/tools/' }, // Phase 2 预留
-      { text: '社区讨论', link: 'https://github.com/yuanchenglu/openclaw-cn-community/issues' } // Phase 3 预留 (Giscus)
+      { text: '5分钟快速开始', link: '/' },
+      { text: '官方手册中文版', link: '/core/' },
+      { text: '社区讨论', link: 'https://github.com/yuanchenglu/openclaw-cn-community/issues' }
     ],
 
     // 侧边栏 (双模架构)
@@ -164,7 +162,6 @@ export default defineConfig({
           text: '场景教程',
           items: [
             { text: '入门指南', link: '/cookbook/' },
-            { text: '5分钟快速上手', link: '/cookbook/quick-start' },
             { text: '常见问题 (FAQ)', link: '/cookbook/faq' }
           ]
         },
